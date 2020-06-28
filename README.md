@@ -44,5 +44,12 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
+## Version History
+
+Password_generator_v1.0 - Initial commit; Used provided homework layout for index.html, script.js & style.css.
+
+Password_generator_v1.1 - Removed header and added nav bar element to replace it, for styling the top of the page (index.html lines 12-14); Added bootstrap link above css link (index.html line 11);
+
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
