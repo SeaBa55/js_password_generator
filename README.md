@@ -52,7 +52,9 @@ Password_generator_v1.1 - Removed header and added nav bar element to replace it
 
 Password_generator_v1.2 - Removed existing content and replaced with content I have been developing on the side (index.html lines 27-48). Changes include, different text window where password will be displayed (line 32); Added checkbox elements for password criteria selection (lines 35-38); Added slider element for user control of password length/ complexity; also created "onclick" function call for slider (line 41); Added buttons for password generation and for copying the password to clipboard; also created "onclick" function calls for each button (lines 44, 46).
 
-Password_generator_v1.3 - Added sticky footer with version info to bottom of page (index.html lines 57-61); Removed unused CSS lines and added footer related styling (styles.css lines 1-3, 34, 39-52); Changed card background-color to lightgray and the top padding for wrapping div element to 20px (styles.css line 16, 23).
+Password_generator_v1.3 - Added sticky footer with version info to bottom of page (index.html lines 57-61); Removed unused CSS lines and added footer related styling (styles.css lines 1-3, 34, 39-52); Changed card background-color to lightgray and the top padding for wrapper div element to 20px (styles.css line 16, 23).
+
+Password_generator_v1.4 - Changed password display and slider styles to extend to 100% of the page (style.css lines 38, 42).  
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -34,6 +34,13 @@ body {
   margin-bottom: 60px;
 }
 
+#display{
+  width: 100%;
+}
+
+#slider{
+  width: 100%;
+}
 
 /* Sticky footer properties */
 .footer {
@@ -49,5 +56,5 @@ body {
   line-height: 40px; 
   color: white;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
