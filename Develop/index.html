@@ -23,21 +23,34 @@
     <div class="wrapper">
 
       <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
+
+        <div class="content">
+
+          <h4>Random Password Generator</h4>
+          <br />
+
+          <input type="text" id="display">
+          <br />
+
+          <input type="checkbox" id="lower_case" name="password_criteria" checked>Lower Case</input>
+          <input type="checkbox" id="caps" name="password_criteria" checked>Caps</input>
+          <input type="checkbox" id="numbers" name="password_criteria" checked>Numbers</input>
+          <input type="checkbox" id="special_char" name="password_criteria" checked>Special Chararcters</input>
+          <br />
+          
+          <input onclick="slideVal()" type="range" min="8" max="128" step="8" value="16" name="password_criteria" id="slider">
+          <br />
+
+          <button onclick="genPass()">Generate</button>
+
+          <button onclick="genPassCopy()">Copy to Clipboard</button>
+          
+          <div id="length"></div>
+
         </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
+
       </div>
+
     </div>
     
     <script src="script.js"></script>
