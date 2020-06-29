@@ -33,7 +33,7 @@ THEN the password is either displayed in an alert or written to the page
 ## Application Functionality
 
 1) Open web application should look as shown below:
-![password generator demo](Assets/application-functionality-01.png)
+![password generator demo](Assets/application-functionality-01.PNG)
 
 2) Select password character criteria. Must have atleast one checked for the application to run.
 ![password generator demo](Assets/application-functionality-02.png)
@@ -47,7 +47,7 @@ Note: 16 is the default slider value.
 ![password generator demo](Assets/application-functionality-04.png)
 
 5) The output should look similar to the following: 
-![password generator demo](Assets/application-functionality-05.png)
+![password generator demo](Assets/application-functionality-05.PNG)
 Note: The "Previous Passwords" section will log all passwords generated during your session. Clears upon page reload. 
 
 6) Click the "Copy" button to add the password to your clipboard with ease.
