@@ -20,32 +20,78 @@
       <a class="navbar-brand" href="#">Random Password Generator</a>
     </nav>
 
-    <div class="wrapper">
+    <main role="main">
+        
+      <!--Card taking up 12 Columns -->
+      <div class="container my-container">
 
-      <div class="card">
+        <div class="col-md-12 wrapper">
 
-        <div class="content">
+          <div class="card mt-2">
 
-          <h4>Random Password Generator</h4>
-          <br />
+            <div class="card-body">
 
-          <input type="text" id="display">
-          <br />
+              <h5 class="card-title">Generate Password</h5>
 
-          <input type="checkbox" id="lower_case" name="password_criteria" checked>Lower Case</input>
-          <input type="checkbox" id="caps" name="password_criteria" checked>Caps</input>
-          <input type="checkbox" id="numbers" name="password_criteria" checked>Numbers</input>
-          <input type="checkbox" id="special_char" name="password_criteria" checked>Special Chararcters</input>
-          <br />
-          
-          <input onclick="slideVal()" type="range" min="8" max="128" step="8" value="16" name="password_criteria" id="slider">
-          <br />
+              <!-- line divider between heading and content -->
+              <div class="line"><div>
+              <br />
 
-          <button onclick="genPass()">Generate</button>
+              <input type="text" id="display">
+              <br />
 
-          <button onclick="genPassCopy()">Copy</button>
-          
-          <div id="length"></div>
+              <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="checkbox" id="lower_case" checked>
+                <label class="form-check-label" for="lower_case">Lowercase</label>
+
+              </div>
+
+              <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="checkbox" id="caps" checked>
+                <label class="form-check-label" for="caps">Uppercase</label>
+
+              </div>
+
+              <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="checkbox" id="numbers" checked>
+                <label class="form-check-label" for="numbers">Numeric</label>
+
+              </div>
+        
+              <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="checkbox" id="special_char" checked>
+                <label class="form-check-label" for="special_char">Special</label>
+
+              </div>
+    
+              <div class="row">
+
+                <div class="col-md-10">
+                  <input onclick="slideVal()" type="range" min="8" max="128" step="8" value="16" name="password_criteria" id="slider">
+                </div>
+
+                <div class="col-md-2">
+                  <div id="length"></div>
+                </div>
+
+              </div>
+
+              <div class="row">
+
+                <div class="col">
+                  <button onclick="genPass()">Generate</button>
+                  <button onclick="genPassCopy()">Copy</button>
+                </div>
+
+              </div>
+      
+            </div>
+
+          </div>
 
         </div>
 
@@ -55,8 +101,7 @@
 
         <div class="previous_passwords">
 
-          <h4>Previously Generated Passwords</h4>
-          <br />
+          <h5 class="card-title">Previous Passwords</h5>
 
           <div id="lastPasswords"></div>
           
@@ -64,12 +109,12 @@
 
       </div>
 
-    </div>
+    </main>
     
     <!-- Sticky Footer (modified - copied and pasted from https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/ -->
     <footer class="footer mt-auto bg-dark">
       <div class="container">   
-        <span class="my-foot-text">© 2020 v1.9 - updated: 6/28 by S. Arrazola</span>
+        <span class="my-foot-text">© 2020 v2.1 - updated: 6/28 by S. Arrazola</span>
       </div>
     </footer>
 
