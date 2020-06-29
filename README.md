@@ -60,5 +60,9 @@ Password_generator_v1.5 - Removed existing script, and initialized variable "com
 
 Password_generator_v1.6 - Created function genPass() which is called on the "generate" button click. In its curent form, it uses a sigle char array "genPassVals" along with a math.random loop to create a random password of length "complexity"; The password is stored in the variable "password" during the loop and is pushed into the text display immediatle after loop execution (script.js lines 15-27). 
 
+Password_generator_v1.7 - Added functionality to the checkboxes, so that when selected they pass different character arrays to "genPassVals". Selecting more than one checkbox concatinates the sring of characters selected; however, if no selections are made, an alert is provided to the user and we exit the entire genPass function call (script.js lines 18-50).
+
+Password_generator_v1.8 - Added second card for previously generated passwords to be displayed (index.html lines 54-65); Added functionality to add previously generated passwords within genPass function (script.js line 64).  
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
