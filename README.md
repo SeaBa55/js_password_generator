@@ -56,5 +56,9 @@ Password_generator_v1.3 - Added sticky footer with version info to bottom of pag
 
 Password_generator_v1.4 - Changed password display and slider styles to extend to 100% of the page (style.css lines 38, 42).  
 
+Password_generator_v1.5 - Removed existing script, and initialized variable "complexity" which keeps track of the slider's value (to be used) to set password length; the value of "complexity" is displyed in the empty div element after the slider (index.html line 48) as "Length: " + complexity (script.js lines 2-10); 
+
+Password_generator_v1.6 - Created function genPass() which is called on the "generate" button click. In its curent form, it uses a sigle char array "genPassVals" along with a math.random loop to create a random password of length "complexity"; The password is stored in the variable "password" during the loop and is pushed into the text display immediatle after loop execution (script.js lines 15-27). 
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
