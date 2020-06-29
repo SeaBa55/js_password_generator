@@ -35,7 +35,7 @@ THEN the password is either displayed in an alert or written to the page
 1) Open web application should look as shown below:
 ![password generator demo](Assets/application-functionality-01.PNG)
 
-2) Select password character criteria. Must have atleast one checked for the application to run.
+2) Select password character criteria. Must have at least one checked for the application to run.
 ![password generator demo](Assets/application-functionality-02.png)
 Note: All characters are selected by default. 
 
