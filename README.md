@@ -66,5 +66,7 @@ Password_generator_v1.8 - Added second card for previously generated passwords t
 
 Password_generator_v1.9 - Added function genPassCopy() to allow the user to copy the most curent password to clip board; User is made aware that password has been copied via alert (script.js lines 69-76). 
 
+Password_generator_v2.0 - Added if statement to prevent the user from copying a blank text feild when no password has been generated (script.js lines 72, 80-84).
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -67,10 +67,19 @@ function genPass(){
 
 // copy password to clipboard
 function genPassCopy(){
+  
+  // text must be present for copy to clipboard to work...
+  if(document.getElementById("display").value !== ""){
 
-  document.getElementById("display").select();
-  document.execCommand("copy");
+    document.getElementById("display").select();
+    document.execCommand("copy");
 
-  alert("Password copied to clipboard!");
+    alert("Password copied to clipboard!");
 
+  // ...otherwise return
+  }else{
+    
+    return;
+    
+  }
 }
