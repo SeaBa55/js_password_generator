@@ -70,13 +70,13 @@ Password_generator_v2.0 - Added if statement to prevent the user from copying a 
 
 Password_generator_v2.1 - Created a better card layout that will resize in a more view friendly manner for smaller devices (index.html 23-34); changed heading sizes to "h5", as I find this size more in-tune with aesthetic hierarchy (index.html line 34, 104). Added line divider between heading and checkbox content (index.html lines 37-38)(style.css line 35-37); Added separate label elements and converted checkboxes to bootstrap "forms", each within div containers to improve how they behave in different viewports (index. html lines 43-69); Moved slider "Lenght" readout into a individual row shared with the slider input element. They share the space 10-2, with the readout assigned the 2 col portion; this ensures that the readout stays in-line with the slider until viewport shrinks below "md" (index.html lines 71-81)(style.css lines 47-50); Added buttons to their own row for future stying (index.html 83-89).
 
+Password_generator_v2.2 - Changed display & lastPasswords font to Courier (typeface) for monospace appearance (for that unmistakable passcode appearance) (style.css lines 41, 53-55); Changes file structure, so that the site deploys properly using the github link I submitted.   
+
 ## Wish List
 
-1 - Change password output font to Courier (typeface), so that text has uniform spacing in the previous passwords section.
+1 - Remove alerts and add text feilds that appear when alert would have triggered; hidden otherwise.
 
-2 - Remove alerts and add text feilds that appear when alert would have triggered; hidden otherwise.
-
-3 - Add read/wirte function so user can save passwords to local drive and manage them.
+2 - Add read/wirte function so user can save passwords to local drive and manage them.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -38,6 +38,7 @@ body {
 
 #display{
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #slider{
@@ -47,6 +48,10 @@ body {
 #length{
   display: inline-block;
   width: 100px;
+}
+
+#lastPasswords{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* Sticky footer properties */
