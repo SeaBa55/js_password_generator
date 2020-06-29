@@ -30,28 +30,28 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following demonstrates application functionality:
+## Application Functionality
 
 1) Open web application should look as shown below:
-![](Assets/application-functionality-01.png)
+![password generator demo](Assets/application-functionality-01.png)
 
 2) Select password character criteria. Must have atleast one checked for the application to run.
-![](Assets/application-functionality-02.png)
+![password generator demo](Assets/application-functionality-02.png)
 Note: All characters are selected by default. 
 
 3) Drag the slider to select desired password lenght.
-![](Assets/application-functionality-03.png)
+![password generator demo](Assets/application-functionality-03.png)
 Note: 16 is the default slider value. 
 
 4) Click the "Generate" button to run the random password generator.
-![](Assets/application-functionality-04.png)
+![password generator demo](Assets/application-functionality-04.png)
 
 5) The output should look similar to the following: 
-![](Assets/application-functionality-05.png)
+![password generator demo](Assets/application-functionality-05.png)
 Note: The "Previous Passwords" section will log all passwords generated during your session. Clears upon page reload. 
 
 6) Click the "Copy" button to add the password to your clipboard with ease.
-![](Assets/application-functionality-06.png)
+![password generator demo](Assets/application-functionality-06.png)
 Note: The copy function will not allow you to copy if you have not yet generated a password.
 
 ## Version History
