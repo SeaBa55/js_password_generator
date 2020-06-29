@@ -37,7 +37,7 @@ THEN the password is either displayed in an alert or written to the page
 
 2) Select password character criteria. Must have at least one checked for the application to run.
 ![password generator demo](Assets/application-functionality-02.png)
-Note: All characters are selected by default. 
+Note: All characters types are selected by default. 
 
 3) Drag the slider to select desired password lenght.
 ![password generator demo](Assets/application-functionality-03.png)
@@ -84,15 +84,15 @@ Password_generator_v2.2 - Changed display & lastPasswords font to Courier (typef
 
 Password_generator_v2.3 - Changed file structure, so that the site deploys properly, using the github link I submitted. Changed relative address for the css and javascript files to reflect changes above (index.html lines 12,122).   
 
+Password_generator_v2.4 - Changed the slider event listener for funcion call "slideVal" from onclick to onchange (index.html line 74). This allows for the slider to update while on mobile devices, and while using the keyboard arrows if no click is registered via mouse.
+
 ## Wish List
 
-1 - Make the slider respond on change, not on click. This is causing feedback issues, where the script will not update if the slider is moved without a click.
+1 - Remove alerts and add text feilds that appear when alert would have triggered; hidden otherwise.
 
-2 - Remove alerts and add text feilds that appear when alert would have triggered; hidden otherwise.
+2 - Add read/wirte function so user can save passwords to local drive and manage them.
 
-3 - Add read/wirte function so user can save passwords to local drive and manage them.
-
-4 - Add settings for user to set unique defaults.
+3 - Add settings for user to set unique defaults.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

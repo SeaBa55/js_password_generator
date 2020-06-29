@@ -45,7 +45,7 @@ function genPass(){
   
   // If user makes no selection then push alert, and stop running genPass function
   if((includeLowr || includeCaps || includeNumb || includeSymb) == false){
-    alert("Please select atlease one charater type");
+    alert("Please select at lease one charater type");
     return;
   }
 
