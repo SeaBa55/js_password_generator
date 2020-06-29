@@ -64,3 +64,13 @@ function genPass(){
   document.getElementById("lastPasswords").innerHTML += password + "<br />";
 
 }
+
+// copy password to clipboard
+function genPassCopy(){
+
+  document.getElementById("display").select();
+  document.execCommand("copy");
+
+  alert("Password copied to clipboard!");
+
+}

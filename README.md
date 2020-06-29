@@ -62,7 +62,9 @@ Password_generator_v1.6 - Created function genPass() which is called on the "gen
 
 Password_generator_v1.7 - Added functionality to the checkboxes, so that when selected they pass different character arrays to "genPassVals". Selecting more than one checkbox concatinates the sring of characters selected; however, if no selections are made, an alert is provided to the user and we exit the entire genPass function call (script.js lines 18-50).
 
-Password_generator_v1.8 - Added second card for previously generated passwords to be displayed (index.html lines 54-65); Added functionality to add previously generated passwords within genPass function (script.js line 64).  
+Password_generator_v1.8 - Added second card for previously generated passwords to be displayed (index.html lines 54-65); Added functionality to add previously generated passwords within genPass function (script.js line 64).
+
+Password_generator_v1.9 - Added function genPassCopy() to allow the user to copy the most curent password to clip board; User is made aware that password has been copied via alert (script.js lines 69-76). 
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
