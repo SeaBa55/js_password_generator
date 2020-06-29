@@ -2,8 +2,6 @@
 
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
-
 ## User Story
 
 ```
@@ -32,17 +30,29 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following image demonstrates the application functionality:
+The following demonstrates application functionality:
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+1) Open web application should look as shown below:
+![](Assets/application-functionality-01.png)
 
-## Review
+2) Select password character criteria. Must have atleast one checked for the application to run.
+![](Assets/application-functionality-02.png)
+Note: All characters are selected by default. 
 
-You are required to submit the following for review:
+3) Drag the slider to select desired password lenght.
+![](Assets/application-functionality-03.png)
+Note: 16 is the default slider value. 
 
-* The URL of the deployed application.
+4) Click the "Generate" button to run the random password generator.
+![](Assets/application-functionality-04.png)
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+5) The output should look similar to the following: 
+![](Assets/application-functionality-05.png)
+Note: The "Previous Passwords" section will log all passwords generated during your session. Clears upon page reload. 
+
+6) Click the "Copy" button to add the password to your clipboard with ease.
+![](Assets/application-functionality-06.png)
+Note: The copy function will not allow you to copy if you have not yet generated a password.
 
 ## Version History
 
@@ -76,9 +86,13 @@ Password_generator_v2.3 - Changed file structure, so that the site deploys prope
 
 ## Wish List
 
-1 - Remove alerts and add text feilds that appear when alert would have triggered; hidden otherwise.
+1 - Make the slider respond on change, not on click. This is causing feedback issues, where the script will not update if the slider is moved without a click.
 
-2 - Add read/wirte function so user can save passwords to local drive and manage them.
+2 - Remove alerts and add text feilds that appear when alert would have triggered; hidden otherwise.
+
+3 - Add read/wirte function so user can save passwords to local drive and manage them.
+
+4 - Add settings for user to set unique defaults.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
